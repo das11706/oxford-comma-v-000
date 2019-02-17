@@ -11,12 +11,12 @@ elsif array.length > 3
   #new_arr = []
   array.each do |fruit|
     #array.join(", ")
-  #if array.length == array[-1]
-  #array[-1].replace("and #{fruit}")
+  if array.length == array[-1]
+  array.join("and #{fruit}")
   #array.push("and #{fruit}")
 
 #else new_arr << " #{fruit}"
-  #end
+  end
   return array.join(", ")
   end
 
