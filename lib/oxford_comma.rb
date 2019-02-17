@@ -11,7 +11,7 @@ elsif array.length > 3
   #new_arr = []
   array.each do |fruit|
     #array.join(", ")
-  if array.length == array[-1]
+  if array.last
   array.join("and #{fruit}")
   #array.push("and #{fruit}")
 
