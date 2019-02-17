@@ -12,7 +12,7 @@ elsif array.length > 3
   array.each do |fruit|
     #array.join(", ")
   if array.last
-  return array.last().join("and ")
+  return array.join("and #{{fruit}")
   #array.push("and #{fruit}")
 
 #else new_arr << " #{fruit}"
