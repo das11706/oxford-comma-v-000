@@ -10,7 +10,9 @@ elsif array.length == 3
 elsif array.length > 3
   if array.last
     array.pop
-    array << "and "
+    array.each do |fruit|
+    array << "and #{fruit}"
+  end
     array.join(", ")
   end
 end
