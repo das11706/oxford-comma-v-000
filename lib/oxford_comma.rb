@@ -10,7 +10,7 @@ elsif array.length == 3
 elsif array.length > 3
   array.each do |fruit|
     if array.last
-      array.last().replace("and #{fruit}")
+      array.last.replace("and ")
       #array.pop
     #array << "and #{fruit}"
     end
