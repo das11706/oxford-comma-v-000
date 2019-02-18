@@ -11,7 +11,7 @@ elsif array.length > 3
   array.each do |fruit|
   #array.join(", ")
     if array.last
-    array.replace("and #{fruit}")
+    array.concat("and #{fruit}")
     #array << "and #{fruit}"
     end
   end
