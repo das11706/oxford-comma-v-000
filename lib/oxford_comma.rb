@@ -12,7 +12,7 @@ elsif array.length > 3
     #if array.last
       #array.pop
     array << "and #{fruit}"
-    end
+    #end
     return array.join(", ")
   end
 end
