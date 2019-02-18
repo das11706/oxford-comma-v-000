@@ -9,10 +9,11 @@ elsif array.length == 3
   array.join(", ")
 elsif array.length > 3
   array.each do |fruit|
-    #if array.last
+    if array.last
+      array.last.replace("and #{fruit}")
       #array.pop
     #array << "and #{fruit}"
-    #end
+    end
     return array.join(", ")
   end
 end
