@@ -14,6 +14,6 @@ elsif array.length > 3
     array << "and #{fruit}"
   end
   end
-  array.join(", ")
+  return array.join(", ")
 end
 end
