@@ -8,16 +8,10 @@ elsif array.length == 3
   array << "and starfruit"
   array.join(", ")
 elsif array.length > 3
-  #new_arr = []
-  array.each do |fruit|
-    #array.join(", ")
   if array.last
-  return array.join(" and ")
-  #array.push("and #{fruit}")
-  #else new_arr << " #{fruit}"
+    array.pop
+    array << "and "
+    array.join(", ")
   end
-  return array.join(", ")
-  end
-
 end
 end
