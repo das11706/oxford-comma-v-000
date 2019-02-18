@@ -10,7 +10,7 @@ elsif array.length == 3
 elsif array.length > 3
   array.each do |fruit|
     if array.last
-      array.last.concat(" and ").reverse
+      array.last.reverse.concat(" and ")
       #array.pop
     #array << "and #{fruit}"
     end
