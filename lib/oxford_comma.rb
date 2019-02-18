@@ -13,7 +13,8 @@ elsif array.length > 3
     array.each do |fruit|
     array << "and #{fruit}"
   end
-  return array.join(", ")
+  array.join(", ")
   end
+  return array
 end
 end
