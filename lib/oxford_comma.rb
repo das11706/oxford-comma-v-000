@@ -9,7 +9,7 @@ elsif array.length == 3
   array.join(", ")
 elsif array.length > 3
   array.each do |fruit|
-    if array.last
+    if array[-1]
       array.last.prepend("and ")
     end
   return array.join(", ")
